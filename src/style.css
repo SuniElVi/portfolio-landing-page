@@ -107,6 +107,19 @@ h2 {
   gap: 50px;
 }
 
+.email-icon {
+  color: black;
+  background-color: white;
+  padding: 15px 6px;
+  border-radius: 50%;
+  transition: 0.25s;
+}
+
+.email-icon:hover {
+  color: white;
+  background-color: #000;
+}
+
 .github {
   color: black;
   background-color: white;
@@ -166,5 +179,11 @@ h2 {
 
 .about-header {
   font-size: 64px;
-   margin-bottom: 150px;
+  margin-bottom: 150px;
+}
+
+
+
+.email-form {
+  margin-bottom: 30px;
 }
